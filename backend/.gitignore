@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Uploads
+uploads/*
+!.gitkeep
+
+# Logs
+logs/
+*.log
